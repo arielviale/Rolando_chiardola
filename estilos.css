@@ -45,3 +45,21 @@ nav a:hover {
         margin: 5px;
     }
 }
+
+/* Estilos para la imagen principal */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    animation: scaleAnimation 2s infinite alternate;
+}
+
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
