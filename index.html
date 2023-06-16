@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avances del Proyecto de Vivienda</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Avances del Proyecto de Vivienda Unifamiliar</h1>
+        <img src="./img/CASA.jpg" alt="Logo del Proyecto">
+        <p>Bienvenido al seguimiento de nuestro proyecto de vivienda.</p>
+        <link rel="icon" href="CASA.ico" type="image/x-icon">
+        <link rel="stylesheet" href="estilos.css">
+        <script>
+            window.addEventListener('DOMContentLoaded', (event) => {
+                const sections = document.querySelectorAll('section');
+
+                sections.forEach(section => {
+                    section.addEventListener('click', () => {
+                        section.classList.toggle('expanded');
+                    });
+                });
+            });
+        </script>
+
+
+    </header>
+
+    <nav>
+        <!-- Aquí menú de navegación de las partes que componen la casa -->
+        <ul>
+            <li><a href="#dormitorio">Dormitorio</a></li>
+            <li><a href="#comedor">Comedor</a></li>
+            <li><a href="#baño">Baño</a></li>
+            <li><a href="#cocina">Cocina</a></li>
+            <li><a href="#lavadero">Lavadero</a></li>
+            <li><a href="#patio">Patio</a></li>
+            <li><a href="#ingreso">Ingreso</a></li>
+            <li><a href="#estar">Estar</a></li>
+            <li><a href="#cochera">Cochera</a></li>
+            <li><a href="#instalaciones">Instalaciones</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="dormitorio">
+            <h2>Dormitorio</h2>
+            <iframe src="./asset/dormitorio1.pdf" width="100%" height="600px"></iframe>
+         
+            <!-- Aquí puedes agregar información y fotos relacionadas con el dormitorio -->
+        </section>
+
+        <section id="comedor">
+            <h2>Comedor</h2>
+            <iframe src="./asset/ESQUEMA1.pdf" width="100%" height="600px"></iframe>
+            <iframe src="./asset/estructura1.pdf" width="100%" height="600px"></iframe>
+            <!-- Aquí puedes agregar información y fotos relacionadas con el comedor -->
+        </section>
+
+        <section id="baño">
+            <h2>Baño</h2>
+            <!-- Aquí puedes agregar información y fotos relacionadas con el baño -->
+        </section>
+
+        <section id="cocina">
+            <h2>Cocina</h2>
+            <!-- Aquí puedes agregar información y fotos relacionadas con la cocina -->
+        </section>
+
+        <section id="lavadero">
+            <h2>Lavadero</h2>
+            <!-- Aquí puedes agregar información y fotos relacionadas con el lavadero -->
+        </section>
+
+        <section id="patio">
+            <h2>Patio</h2>
+            <!-- Aquí puedes agregar información y fotos relacionadas con el patio -->
+        </section>
+
+        <section id="ingreso">
+            <h2>Ingreso</h2>
+            <!-- Aquí puedes agregar información y fotos relacionadas con el ingreso -->
+        </section>
+
+        <section id="estar">
+            <h2>Estar</h2>
+            <!-- Aquí puedes agregar información y fotos relacionadas con el estar -->
+        </section>
+
+        <section id="cochera">
+            <h2>Cochera</h2>
+            <!-- Aquí puedes agregar información y fotos relacionadas con la cochera -->
+        </section>
+        <section id="instalaciones">
+            <h2>Instalaciones</h2>
+            <p>Las instalaciones de cloacas </p>
+            <embed src="./asset/cloacas1.pdf" type="application/pdf" width="100%" height="600px"
+                style="background-color: #990e0e; margin-top: 20px;">
+            <!-- Aquí puedes agregar información y fotos relacionadas con el dormitorio -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos de autor &copy; M.M.O Hugo Ariel Martinez 2023 - Vivienda unifamiliar Lallana - Chiardola</p>
+    </footer>
+</body>
+
+</html>
